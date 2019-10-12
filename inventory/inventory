@@ -33,7 +33,7 @@ ansible_password=student
 
 [centos7:children]
 webserver
-load-balancer
+loadBalancer
 
 [rhel8]
 10.0.1.5  # standalone RHEL 8 server to experiment with
